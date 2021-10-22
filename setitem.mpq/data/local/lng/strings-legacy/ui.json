@@ -1328,7 +1328,7 @@
     "esES": "Oro: ",
     "frFR": "Or :",
     "itIT": "Oro: ",
-    "koKR": "골드: ",
+    "koKR": "G: ",
     "plPL": "Złoto:"
   },
   {
@@ -3668,7 +3668,7 @@
     "esES": "monedas de oro",
     "frFR": "or",
     "itIT": "Oro",
-    "koKR": "골드",
+    "koKR": "G",
     "plPL": "Złoto"
   },
   {
@@ -5456,7 +5456,7 @@
     "esES": "La muerte te cuesta %d monedas",
     "frFR": "La Mort vous prend %d pièces d'or.",
     "itIT": "La morte prende come pegno %d oro",
-    "koKR": "죽음으로 %d 골드를 잃어버렸습니다.",
+    "koKR": "죽음으로 %d G를 잃어버렸습니다.",
     "plPL": "Śmierć zabiera ofiarę w wysokości %d Szt. Złota"
   },
   {
