@@ -42,7 +42,7 @@
     "FontColorGold": "$FontColorGoldYellow",
     "FontColorDarkGold": { "r": 120, "g": 98, "b": 47, "a": 255 },
     "FontColorBeige" : { "r": 204, "g": 195, "b": 176, "a": 255 },
-    "FontColorGray": { "r": 99, "g": 99, "b": 99, "a": 255 },
+    "FontColorGray": { "r": 110, "g": 110, "b": 110, "a": 255 },		// 드랍된 소켓아이템 색 99, 99, 99
     "FontColorGrey": "$FontColorGray",
     "FontColorOrange": { "r": 255, "g": 168, "b": 0, "a": 255 },
     "FontColorDarkGreen": { "r": 0, "g": 128, "b": 0, "a": 255 },
@@ -58,7 +58,7 @@
     "FontColorTransparent": { "r": 0, "g": 0, "b": 0, "a": 0 },
     "FontColorPartyOrange": { "r": 196, "g": 129, "b": 0, "a": 255 },
     "FontColorPartyGreen": {"r": 79, "g": 194, "b": 56, "a": 255 },
-
+    "FontColorLegendaryGold": { "r": 200, "g": 100, "b": 20, "a": 255 },		// 유니크로 지정
     // Text color presets
     "CarouselEnabledColor": "$FontColorLightGold",
     "CarouselDisabledColor": "$FontColorGray",
@@ -85,9 +85,9 @@
     "XMediumLargeFontSize": 34, // Usage: Player name
     "MediumLargeFontSize": 32, // Usage: Front end button ribbon buttons (CAPS), front end character select tabs
     "XMediumFontSize": 28, // Usage:Secondary Action Center Buttons, Character list title and level text
-    "MediumFontSize": 22, // Usage : Settings field text
+    "MediumFontSize": 26, // Usage : Settings field text
     "SmallFontSize": 22,
-    "TooltipFontSize": 32,
+    "TooltipFontSize": 28,		// 툴팁 폰트 크기 36
     "CinematicsFontSize": 32,
     "AddFriendModalFontSize": 26, // Usage: AddFriendModal needs to be the same size in all profiles to support IME
 
@@ -278,9 +278,10 @@
             "pointSize": "$TooltipFontSize",
             "alignment": { "h": "center", "v": "center" },
             "options": { "pipeCharacterBehavior": "handle", "newlineHandling": "reversed" },
+            "spacing": { "leading": 0.85 }		// 추가됨 1.0
         },
-        "padding": [ 20, 12, 20, 12 ],
-        "inGameTargetPadding": [ 7, 1, 7, 1 ],
+        "padding": [ 12, 12, 12, 12 ],		// 20, 12, 20, 12
+        "inGameTargetPadding": [ 7, 1, 7, 1 ],	// 7, 1, 7, 1
         "drawBorder": false,
         "centeredOnAnchor": true,
         "hp": 0,
@@ -299,9 +300,9 @@
         "TemperedColor": "$FontColorDarkGreen",
         "MagicColor": "$FontColorBlue",
         "SetColor": "$FontColorGreen",
-        "UniqueColor": "$FontColorGoldYellow",
+        "UniqueColor": "$FontColorLegendaryGold",	// 드랍된 유니크 색 $FontColorGoldYellow
         "SocketedColor": "$FontColorGrey",
-        "EtherealColor": "$FontColorGrey",
+        "EtherealColor": "$FontColorLightTeal",		// 드랍된 무형아이템 색 $FontColorGrey
         "HealthPotionColor": "$FontColorWhite",
         "ManaPotionColor": "$FontColorWhite",
         "RejuvPotionColor": "$FontColorWhite",
