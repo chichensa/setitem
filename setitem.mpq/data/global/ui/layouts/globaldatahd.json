@@ -18,6 +18,7 @@
         ],
         "etherealIconTransparency": 0.5,
         "chatFontSizes": [ "$MediumFontSize", "$XMediumLargeFontSize", "$LargeFontSize", "$ExtraLargeFontSize" ],
+		"defaultTooltipStyle": "$TooltipStyle",
     },
     "children": [
         {
