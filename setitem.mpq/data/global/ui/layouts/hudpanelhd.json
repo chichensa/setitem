@@ -119,7 +119,7 @@
         {
             "type": "SkillSelectButtonWidget", "name": "SkillBindTemplate",
             "fields": {
-                "rect": { "x": 690, "y": 145, "scale": 0.5},
+                "rect": { "x": 690, "y": 90, "scale": 0.8},
                 "side": "bind",
                 "skillIconFilenames": "$SkillIconFilenames",
             },
